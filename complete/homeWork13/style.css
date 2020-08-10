@@ -1,0 +1,253 @@
+.dashboard {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f5f6fa;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.dashboard__column {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 40px 10px 20px;
+    background-color: white;
+}
+
+.item-card__img {
+    width: 195px;
+    height: 164px;
+    background-color: rgba(0, 84, 254, 0.04);
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.column__title {
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4A4A4A;
+    padding-bottom: 17px;
+}
+
+.item-card__title {
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4A4A4A;
+    max-width: 195px;
+}
+
+.dashboard__main-window {
+    width: 82%;
+    padding: 17px 30px 112px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: gray; */
+}
+
+.container {
+    width: 100%;
+}
+
+.input__item {}
+
+.feedback__text {
+    margin-bottom: 10px;
+}
+
+.feedback__text_small {
+    font-size: 12px;
+    box-sizing: border-box;
+    width: 215px;
+}
+
+.placeholder__text {
+    font-weight: bold;
+    color: rgba(74, 74, 74, 0.5);
+}
+
+.input__placeholder {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 547px;
+    max-height: 185px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 14px 141px 14px;
+    background-color: white;
+    ;
+}
+
+.main-window__input-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+
+.item__title {
+    color: #4A4A4A;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.item__subtitle {
+    color: rgba(74, 74, 74, 0.5);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.title {
+    margin-top: 17px;
+    margin-bottom: 22px;
+}
+
+.main-windows__questions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    vertical-align: middle;
+    background-color: white;
+    width: 870px;
+}
+
+.questions__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(0, 84, 254, 0.04);
+    width: 195px;
+    border-radius: 8px;
+}
+
+.procedure {
+    flex-grow: 1;
+    height: 240px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgba(0, 84, 254, 0.04);
+    padding: 14px 11px 19px 12px;
+}
+
+.input {
+    width: 46%;
+    height: 185px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 84, 254, 0.04);
+}
+
+.item_input-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.testWrapper {}
+
+.input_small {
+    width: 98px;
+    height: 158px;
+    box-sizing: border-box;
+}
+
+.checkbox__input {
+    margin-right: 5px;
+}
+
+.main-windows__testTask {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTask {
+    width: 100%;
+}
+
+.main-window__feedback {
+    flex-grow: 1;
+    margin-top: 16px;
+    padding: 8px 44px 19px 8px;
+    background-color: rgba(0, 84, 254, 0.04);
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 870px;
+    height: 197px;
+}
+
+.inputTask {
+    width: 195px;
+    background-color: rgba(0, 84, 254, 0.04);
+    border-radius: 5px;
+    padding: 0;
+}
+
+.wrpr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrprTest {}
+
+.wrpr1 {
+    display: flex;
+    padding: 26px 24px 15px 19px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+
+.testAsk {
+    width: 195px;
+    height: 100%;
+    background-color: rgba(0, 84, 254, 0.04);
+    border-radius: 8px;
+    padding: 8px 8px 184px 8px;
+}
+
+.feedback__item {
+    box-sizing: border-box;
+    padding: 0;
+    width: 196px;
+}
+
+.Test {
+    background-color: rgba(0, 84, 254, 0.04);
+    box-sizing: border-box;
+    width: 195px;
+    height: 240px;
+    margin-right: 16px;
+}
+
+.sideboard {
+    background-color: rgba(0, 84, 254, 0.04);
+    padding: 0;
+}
+
+.main-windows__sideboard {
+    border-radius: 8px;
+    background-color: rgba(0, 84, 254, 0.04);
+    border-radius: 8px;
+    margin-left: 16px;
+    box-sizing: border-box;
+    width: 195px;
+    height: 440px;
+    padding: 8px 8px 0 8px;
+}
