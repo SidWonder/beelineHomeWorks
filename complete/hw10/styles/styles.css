@@ -1,0 +1,420 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: 0 20%;
+}
+
+nav {
+    min-height: 89px;
+    /* padding: 0 25%; */
+}
+
+.container {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    list-style-type: none;
+    /* padding: 17px 26%; */
+    margin: 0;
+    font-weight: 100;
+}
+
+.menu .menuItem {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* min-width: 154px; */
+    /* height: 31px;
+     */
+    /* background-color: #D8D8D8; */
+    /* margin-right: 0.5%; */
+    /* margin-top: 12px; */
+    /* margin-bottom: 12px; */
+}
+
+header .menu .menuItem:last-child {
+    flex-direction: column;
+    align-self: center;
+    /* margin: 0; */
+    /* margin-right: auto; */
+    /* border-radius: 50%; */
+    /* min-width: 55px; */
+    /* min-height: 55px; */
+}
+
+.promo {
+    background: url('/img/why.jpg') center center/cover no-repeat;
+    /* padding: 50px 350px; */
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 15%;
+    justify-content: space-around;
+}
+
+.promo .whyUs {
+    display: flex;
+    padding: 45px 80px 45px 80px;
+    margin-top: 80px;
+    /* justify-content: space-evenly; */
+    /* width: 130%; */
+    max-height: 108px;
+    min-height: 80px;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: absolute; */
+    align-items: center;
+}
+
+.promo .whyUsHead {
+    /* max-height: 20px; */
+    /* width: 100%; */
+    text-transform: uppercase;
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+    /* font-size: 45px; */
+    align-items: center;
+}
+
+.promo .whyUsHead .LineLeft {
+    background: url('../img/line-left.png') center center/cover no-repeat;
+    width: 30%;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.promo .whyUsHead .LineRight {
+    background: url('../img/line-right.png') center center/cover no-repeat;
+    width: 30%;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.promo .whyUsHead .text {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    /* margin-right: 30px; */
+}
+
+.promo .whyUs .text {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.promo .whyUs .text:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.promo .whyUs:nth-child(2) .text:first-child::after {
+    content: " 100";
+    font-size: 45px;
+}
+
+.promo .whyUs:nth-child(2) {
+    background: url("/img/why-1.png") center no-repeat;
+    background-size: contain;
+}
+
+.promo .whyUs:nth-child(3) {
+    background: url("/img/why-2.png") center no-repeat;
+    background-size: contain;
+}
+
+.promo .whyUs:nth-child(3) .text:first-child::before {
+    content: "10";
+    font-size: 45px;
+}
+
+.promo .whyUs:nth-child(4) {
+    background: url("/img/why-3.png") center no-repeat;
+    background-size: contain;
+}
+
+.promo .whyUs:nth-child(5) {
+    background: url("/img/why-4.png") center center/cover no-repeat;
+    background-size: contain;
+}
+
+.promo .whyUs .text:first-child {
+    /* margin-right: 15px; */
+    color: white;
+}
+
+.promo .whyUs:first-child .text:first-child {
+    /* margin-right: 15px; */
+    color: red;
+}
+
+.promo .whyUs .text:nth-child(2) {
+    /* margin-left: 55px; */
+    color: green;
+}
+
+.features {
+    background: url('/img/us.jpg') center center/cover no-repeat;
+    padding: 50px 15%;
+}
+
+.features .featuresWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 0 auto; */
+    /* justify-content: space-around; */
+}
+
+.features .featuresWrapper .centerWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.features .featuresWrapper .featuresHead {
+    /* max-height: 20px; */
+    /* width: 100%; */
+    text-transform: uppercase;
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    /* font-size: 45px; */
+    align-items: center;
+}
+
+.features .featuresWrapper .featuresHead .LineLeft {
+    background: url('/img/line-left.png') center center/cover no-repeat;
+    width: 30%;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.features .featuresWrapper .featuresHead .LineRight {
+    background: url('/img/line-right.png') center center/cover no-repeat;
+    width: 30%;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.features .featuresWrapper .featuresHead .text {
+    font-weight: 100;
+    text-align: center;
+}
+
+.features .featuresWrapper .featuresHead .text:before {
+    content: "Обращаясь к нам,";
+    color: white;
+    font-size: 35px;
+}
+
+.features .featuresWrapper .featuresHead .text:after {
+    content: "Вы всегда можете расчитывать";
+    color: white;
+    font-size: 25px;
+}
+
+.features .featuresWrapper .textWrapper {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* margin: 0 auto; */
+    margin-top: 35px;
+    align-items: center;
+}
+
+.features .featuresWrapper .textWrapper .icon {
+    min-width: 150px;
+    min-height: 150px;
+    /* outline: 1px solid red; */
+    margin-right: 55px;
+}
+
+.features .featuresWrapper .textWrapper:nth-child(1) .icon {
+    background: url('/img/icon1.png')
+}
+
+.features .featuresWrapper .textWrapper:nth-child(2) .icon {
+    background: url('/img/icon2.png')
+}
+
+.features .featuresWrapper .textWrapper:nth-child(3) .icon {
+    background: url('/img/icon1.png')
+}
+
+.features .featuresWrapper .textWrapper:nth-child(4) .icon {
+    background: url('/img/icon2.png')
+}
+
+.features .featuresWrapper .textWrapper .text {
+    color: white;
+    /* margin-left: 25px; */
+    text-align: left;
+    /* border-left: 1px solid grey; */
+    /* padding-left: 35px; */
+    font-weight: 100;
+}
+
+.summary {
+    padding: 50px 26%;
+}
+
+.summary .summaryHead {
+    /* max-height: 20px; */
+    /* width: 100%; */
+    text-transform: uppercase;
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 100%; */
+    /* font-size: 45px; */
+    align-items: center;
+}
+
+.summary .summaryHead .LineLeft {
+    background: url('/img/line-left.png') center center/cover no-repeat;
+    width: 30%;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.summary .summaryHead .LineRight {
+    background: url('/img/line-right.png') center center/cover no-repeat;
+    width: 30%;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.summary .summaryHead .text {
+    text-align: center;
+}
+
+.summary .summaryHead .text:before {
+    content: "Более 100 единиц";
+    font-size: 25px;
+    color: green;
+}
+
+.summary .summaryHead .text:after {
+    content: "Подвижного состава";
+}
+
+.summary .itemWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.summary .itemWrapper .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary .itemWrapper .item .img {
+    min-width: 180px;
+    min-height: 90px;
+    /* outline: 1px solid red; */
+}
+
+.summary .itemWrapper .item hr {
+    width: 55px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.summary .itemWrapper .item:nth-child(1) .img {
+    background: url('/img/car1.png') center no-repeat;
+}
+
+.summary .itemWrapper .item:nth-child(2) .img {
+    background: url('/img/car2.png')center no-repeat;
+}
+
+.summary .itemWrapper .item:nth-child(3) .img {
+    background: url('/img/car3.png')center no-repeat;
+}
+
+.summary .itemWrapper .item:nth-child(4) .img {
+    background: url('/img/car4.png')center no-repeat;
+}
+
+.footer {
+    padding: 50px 20%;
+}
+
+.footer .footerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer .footerWrapper .itemBox {
+    text-align: center;
+}
+
+.footer .footerWrapper .itemBox .logo {
+    background: url('/img/flogo.jpg')center no-repeat;
+    width: 182px;
+    height: 59px;
+}
+
+.footer .footerWrapper .itemBox .text {
+    color: green;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.footer .footerWrapper .itemBox .text:last-child {
+    color: grey;
+}
+
+.footer .footerWrapper .itemBox .text:last-child:before {
+    content: "Osteuropa Spedition";
+    text-decoration: underline;
+    color: orange;
+}
+
+.footer .footerWrapper .itemBox:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .footerWrapper .itemBox:last-child .text:before {
+    content: "Разработанно:";
+    font-size: 17px;
+}
+
+.footer .footerWrapper .itemBox:last-child .text::after {
+    content: "Fresh Landing";
+    color: orange;
+    font-size: 17px;
+}
+
+.footer .footerWrapper .itemBox .img {
+    background: url('/img/fresh.jpg')center no-repeat;
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//td[contains(@class,'td__count')]//span"
+}

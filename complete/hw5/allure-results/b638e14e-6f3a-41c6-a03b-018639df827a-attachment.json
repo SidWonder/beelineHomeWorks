@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div[class*='SmoothContentSwitcher_container']\"}\n  (Session info: chrome=84.0.4147.125)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00EB87E3+2852835]\n\tOrdinal0 [0x00DA5BB1+1727409]\n\tOrdinal0 [0x00C7E4B9+517305]\n\tOrdinal0 [0x00C19D0B+105739]\n\tOrdinal0 [0x00C36210+221712]\n\tOrdinal0 [0x00C2B890+178320]\n\tOrdinal0 [0x00C34B9C+215964]\n\tOrdinal0 [0x00C2B70B+177931]\n\tOrdinal0 [0x00C12584+75140]\n\tOrdinal0 [0x00C13650+79440]\n\tOrdinal0 [0x00C135E9+79337]\n\tOrdinal0 [0x00DBAD5C+1813852]\n\tGetHandleVerifier [0x00FDC616+1075574]\n\tGetHandleVerifier [0x00FDC367+1074887]\n\tGetHandleVerifier [0x00FE7497+1120247]\n\tGetHandleVerifier [0x00FDCC16+1077110]\n\tOrdinal0 [0x00DB3206+1782278]\n\tOrdinal0 [0x00DBC3BB+1819579]\n\tOrdinal0 [0x00DBC523+1819939]\n\tOrdinal0 [0x00DD2B45+1911621]\n\tBaseThreadInitThunk [0x7538F989+25]\n\tRtlGetAppContainerNamedObjectPath [0x770D74A4+228]\n\tRtlGetAppContainerNamedObjectPath [0x770D7474+180]\n"
+}

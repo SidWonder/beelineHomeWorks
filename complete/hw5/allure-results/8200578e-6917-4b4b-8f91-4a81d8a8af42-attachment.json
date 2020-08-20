@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@class,'SmoothContentSwitcher_container') and contains(@class,'SmoothContentSwitcher_static')]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@class,'shop-order-summary-data_btn-container')]//button[text()='Оформить заказ']"
+}

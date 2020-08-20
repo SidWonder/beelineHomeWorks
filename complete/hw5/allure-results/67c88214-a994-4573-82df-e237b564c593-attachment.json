@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[text()='Смартфоны производитель Nokia']\"}\n  (Session info: chrome=84.0.4147.125)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x003787E3+2852835]\n\tOrdinal0 [0x00265BB1+1727409]\n\tOrdinal0 [0x0013E4B9+517305]\n\tOrdinal0 [0x000D9D0B+105739]\n\tOrdinal0 [0x000F6210+221712]\n\tOrdinal0 [0x000EB890+178320]\n\tOrdinal0 [0x000F4B9C+215964]\n\tOrdinal0 [0x000EB70B+177931]\n\tOrdinal0 [0x000D2584+75140]\n\tOrdinal0 [0x000D3650+79440]\n\tOrdinal0 [0x000D35E9+79337]\n\tOrdinal0 [0x0027AD5C+1813852]\n\tGetHandleVerifier [0x0049C616+1075574]\n\tGetHandleVerifier [0x0049C367+1074887]\n\tGetHandleVerifier [0x004A7497+1120247]\n\tGetHandleVerifier [0x0049CC16+1077110]\n\tOrdinal0 [0x00273206+1782278]\n\tOrdinal0 [0x0027C3BB+1819579]\n\tOrdinal0 [0x0027C523+1819939]\n\tOrdinal0 [0x00292B45+1911621]\n\tBaseThreadInitThunk [0x7538F989+25]\n\tRtlGetAppContainerNamedObjectPath [0x770D74A4+228]\n\tRtlGetAppContainerNamedObjectPath [0x770D7474+180]\n\t(No symbol) [0x00000000]\n"
+}

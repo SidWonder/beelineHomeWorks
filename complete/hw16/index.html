@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="promo">
+
+        <header class="header">
+            <nav class="nav">
+                <li class="nav__item">
+                    <a href="#">
+                        <div class="icon__menu"></div>
+                    </a>
+                </li>
+                <li class="nav__item text"><a href="#">Models</a></li>
+                <li class="nav__item_desktop  text"><a href="#"> Dimensions</a></li>
+                <li class="nav__item_desktop text"><a href="#"> Facts & Figures</a></li>
+                <li class="nav__item_desktop text"><a href="#"> History</a></li>
+                <li class="nav__item_desktop text"><a href="#"> Reviews</a></li>
+            </nav>
+            <div class="container"></div>
+            <div class="search__wrapper">
+                <label for="search__form"><i class="fas fa-search"></i></label>
+                <input class="input__search" id="search__form" type="search" placeholder="Search for details...">
+            </div>
+        </header>
+        <div class="items__wrapper">
+            <h3 class="item__heading">Honda <br> Sport <br> CRF 450RX</h3>
+            <div class="film__wrappper">
+                <div class="item__watch">
+                    <div class="icon">
+                        <a href="#">
+                            <div class="icon__play"></div>
+                        </a>
+                    </div>
+                    <div class="text bookmark">Watch film</div>
+                </div>
+                <div class="item__bookmark">
+                    <div class="icon">
+                        <a href="#">
+                            <div class="icon__bookmark"></div>
+                        </a>
+                    </div>
+                    <div class="text">Bookmark for later</div>
+                </div>
+            </div>
+            <div class="item__wrapper">
+                <div class="item__info">
+                    <div class="item__subtitle">Manufacturer</div>
+                    <div class="item__title">Honda</div>
+                </div>
+                <div class="item__info">
+                    <div class="item__subtitle">Production</div>
+                    <div class="item__title">2019</div>
+                </div>
+                <div class="item__info">
+                    <div class="item__subtitle">Engine</div>
+                    <div class="item__title">0.45 L PGM-FI</div>
+                </div>
+
+                <div class="item__rating">
+                    <div class="item__title">Reviews</div>
+                    <ul class="rating">
+                        <li class="rating__star">
+                            <a href="#">
+                                <div class="icon__raiting"></div>
+                            </a>
+                        </li>
+                        <li class="rating__star">
+                            <a href="#">
+                                <div class="icon__raiting"></div>
+                            </a>
+                        </li>
+                        <li class="rating__star">
+                            <div class="icon__raiting"></div>
+                        </li>
+                        <li class="rating__star">
+                            <a href="#">
+                                <div class="icon__raiting"></div>
+                            </a>
+                        </li>
+                        <li class="rating__star">
+                            <a href="#">
+                                <div class="icon__raiting empty"></div>
+                            </a>
+                        </li>
+                        <li class="rating-final">4.0/5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="form">
+        <div class="container">
+            <div class="text">
+                Sign up for our email newsletter and get the latest our company news. <br> Get free trial for 3 month.
+            </div>
+            <form method="POST" action="http:/posturl/newsletter/" class="inputs__wrapper">
+                <div class="input__wrapper">
+                    <label for="search__form"><i class="fas fa-user"></i></label>
+                    <input required pattern="[A-Za-z]{2,30}" id="input__name" type="text" name="user__name" autocomplete="name" inputmode="text" placeholder="name" />
+                </div>
+                <div class="input__wrapper">
+                    <label for="search__form"><i class="far fa-envelope"></i></label>
+                    <input required id="input__mail" type="email" pattern="[^ @]*@[^ @]*" name="user__mail" autocomplete="name" inputmode="text" placeholder="E-Mail" />
+                </div>
+
+                <button class="btn" type="submit">GET STARTED FOR FREE</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__items">
+                <li class="footer__item"><a href="#">Cars</a> </li>
+                <li class="footer__item"><a href="#">Motorcycles</a> </li>
+                <li class="footer__item"><a href="#">Engines</a> </li>
+                <li class="footer__item"><a href="#">Water moto technology</a> </li>
+            </ul>
+            <div style="color:#BAC5D3" class="footer__copyright">© 2020, &lt BeeInterns /&gt
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

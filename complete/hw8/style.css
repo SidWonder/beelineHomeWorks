@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+td {
+    text-align: left;
+    border-bottom: solid 1px gray;
+}

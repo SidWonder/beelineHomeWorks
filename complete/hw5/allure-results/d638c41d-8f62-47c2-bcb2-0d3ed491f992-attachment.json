@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[contains(@class,'borderBottom') and .//span[text()='Производитель']]//span[text()='Показать все']"
+}
